@@ -7,10 +7,12 @@
 #include <stdio.h>
 int main()
 {
-  int var,*ptr;
+  int var,*ptr=0;
+  
 //Initialize the pointer variable
   printf("Enter the value:");
   scanf("%d",&var);
+  ptr=&var;
   printf("value=%d",*ptr);
   return 0;
 }
