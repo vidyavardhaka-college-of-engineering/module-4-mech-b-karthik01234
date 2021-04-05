@@ -11,6 +11,7 @@ void main()
  printf(" Input two numbers:");
  scanf("%d%d", ptr1,ptr2);
 //write the code for testing the condition
+if(*ptr1>*ptr2)
  {
   printf("%d is the maximum number",*ptr1);
  }
